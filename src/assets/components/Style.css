@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #2ccbeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container,
+h1 {
+  font-size: 2.5rem;
+}
+
+.btn,
+.input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 2px;
+}
+
+.btn:hover {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.mealCard {
+  height: 350px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  background-color: whitesmoke;
+}
+
+.foodImage {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  border-radius: 5px;
+  border: none;
+}
+
+.mealCard .recipe-btn {
+  color: rgb(23, 21, 21);
+  background-color: antiquewhite;
+  font-size: large;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.mealCard .recipe-btn:hover {
+  background-color: rgb(17, 16, 16);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.info-div {
+  color: red;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cls-div {
+  display: flex;
+  margin-left: 65%;
+  margin-top: 20px;
+}
+
+.cls-btn {
+  height: 30px;
+  width: 50px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: rgb(249, 10, 10);
+  border-radius: 5px;
+}
+
+.cls-btn:hover {
+  background-color: black;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#foodDetailsImage {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
+
+#meal-name {
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.instruction-div {
+  color: black;
+  padding: 5px;
+}
+
+.instruction-text {
+  height: auto;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 5px;
+  font-size: large;
+  background-color: rgb(237, 237, 202);
+  text-align: center;
+  border: 2px solid beige;
+}
